@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/imgEmployee"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size" />
+
+    <TextView
+        android:layout_toRightOf="@+id/imgEmployee"
+        android:text="Rizwan"
+        android:textSize="@dimen/medium_text_size"
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/txtName"
+        android:layout_toRightOf="@+id/imgEmployee"
+        android:text="Kharadi"
+        android:textSize="@dimen/medium_text_size"
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/txtAddress"
+        android:layout_toRightOf="@+id/imgEmployee"
+        android:text="7687678687"
+        android:textSize="@dimen/medium_text_size"
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
